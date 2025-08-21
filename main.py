@@ -1293,12 +1293,13 @@ def format_title_for_platform(
         else:
             result = f"{title_prefix}{formatted_title}"
 
-        if rank_display:
-            result += f" {rank_display}"
-        if title_data["time_display"]:
-            result += f" - {title_data['time_display']}"
-        if title_data["count"] > 1:
-            result += f" ({title_data['count']}次)"
+        # veking: 关闭排行、时间、次数显示
+        #if rank_display:
+        #    result += f" {rank_display}"
+        #if title_data["time_display"]:
+        #    result += f" - {title_data['time_display']}"
+        #if title_data["count"] > 1:
+        #    result += f" ({title_data['count']}次)"
 
         return result
 
@@ -2275,7 +2276,7 @@ def split_content_into_batches(
                 first_title_data = stat["titles"][0]
                 if format_type == "wework":
                     formatted_title = format_title_for_platform(
-                        "wework", first_title_data, show_source=True
+                        "wework", first_title_data, show_source=False # veking: 关闭新闻来源
                     )
                 elif format_type == "telegram":
                     formatted_title = format_title_for_platform(
@@ -2312,7 +2313,7 @@ def split_content_into_batches(
                 title_data = stat["titles"][j]
                 if format_type == "wework":
                     formatted_title = format_title_for_platform(
-                        "wework", title_data, show_source=True
+                        "wework", title_data, show_source=False # veking: 关闭新闻来源
                     )
                 elif format_type == "telegram":
                     formatted_title = format_title_for_platform(
