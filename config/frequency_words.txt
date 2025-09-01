@@ -3,9 +3,6 @@
 胖东来
 于东来
 
-DeepSeek
-梁文锋
-
 #华为
 #鸿蒙
 #HarmonyOS
@@ -63,27 +60,10 @@ NVIDIA
 
 AMD
 
-谷歌
-google
-gemini
-deepmind
-
-chatgpt
-openai
-sora
-
-claude
-Anthropic
-
 iphone
 ipad
 mac
 ios
-
-ai
-!gai
-人工智能
-trae
 
 自动驾驶
 
@@ -95,6 +75,7 @@ trae
 #美国
 #日本
 #韩国
+
 美联储
 
 芯片
@@ -107,7 +88,7 @@ trae
 #水电站
 #雅鲁藏布江
 
-新质生产力
+#新质生产力
 
 月球
 登月
@@ -115,3 +96,31 @@ trae
 宇宙
 飞船
 航空
+
+ai
+!gai
+人工智能
+trae
+
+DeepSeek
+梁文锋
+
+美团
+LongCat
+龙猫
+
+阿里
+千问
+Qwen
+
+谷歌
+google
+gemini
+deepmind
+
+chatgpt
+openai
+sora
+
+claude
+Anthropic
